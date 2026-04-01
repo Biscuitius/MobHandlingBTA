@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "biscuitius.mobhandling.mixin",
+  "compatibilityLevel": "JAVA_${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MobPickupMixin",
+    "PlayerCarriableLoadMixin"
+  ],
+  "client": [
+    "PacketHandlerClientCarriableMixin",
+    "MobRendererPlayerCarriedMobMixin"
+  ]
+}

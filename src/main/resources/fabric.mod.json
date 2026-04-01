@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "mobhandling",
+  "version": "${version}",
+  "name": "Mob Handling",
+  "description": "Pick up mobs and put them elsewhere",
+  "authors": ["Biscuitius"],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "icon": "icon.png",
+  "license": "MIT license",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["biscuitius.mobhandling.MobHandlingMod"]
+  },
+  "mixins": ["mobhandling.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${fabricloader}",
+    "minecraft": "*",
+    "java": ">=${java}"
+  }
+}
